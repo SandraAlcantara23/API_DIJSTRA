@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>API_Dijstra</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>D I J S T R A :</h1>
+        <input type="text" id="node1" placeholder="Nodo origen">
+        <input type="text" id="node2" placeholder="Nodo destino">
+        <input type="number" id="weight" placeholder="Peso">
+        <button id="add-edge-btn">Añadir</button>
+        <br><br>
+        <input type="text" id="start-node" placeholder="Inicio">
+        <input type="text" id="end-node" placeholder="Destino">
+        <button id="run-dijkstra-btn">Ejecutar</button>
+        <div id="shortest-path-result"></div>
+        <div class="graph-image">
+            <img id="graph" src="/static/graph.png" alt="Grafo actual">
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
+

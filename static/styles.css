@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background-color: #f5f5f5;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: #0074d9;
+    padding: 80px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Coloca todo en una columna */
+    gap: 10px; /* Espaciado entre los elementos */
+}
+input {
+    margin: 5px 5px 15px 0;
+    padding: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column; /* Los cuadros de texto en columna */
+    gap: 10px; /* Espaciado entre los cuadros de texto */
+}
+
+.button-group {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si es necesario */
+    margin-top: 15px; /* Espaciado superior */
+}
+
+button {
+    margin: 0 auto; /* Centra el botón automáticamente */
+    padding: 10px; /* Espaciado interno */
+    width: 150px; /* Ajusta el ancho */
+    font-size: 17px; /* Tamaño del texto */
+    background-color: #0074d9; /* Fondo azul */
+    color: #ffffff; /* Texto blanco */
+    border: 1px solid #0056a3; /* Borde más oscuro */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Muestra que es interactivo */
+}
+
+
+button:hover {
+    background-color: #004080; /* Cambia de color al pasar el cursor */
+    color: #ffffff; /* Texto blanco al pasar el cursor */
+}
